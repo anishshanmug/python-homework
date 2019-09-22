@@ -69,6 +69,7 @@ for i in range(0,5):
 	print(a,b,a**b)
 	a=a+1
 	b=b+1
+print(13)
 integer=int(input("Enter a four digit number here:"))
 integer1=integer%10
 integer2=integer//10
@@ -80,6 +81,7 @@ print(integer4)
 print(integer6)
 print(integer3)
 print(integer1)
+print(14)
 z=[]
 for i in range(0,3):
 	a=int(input("Enter x coordinate here:"))
@@ -92,17 +94,22 @@ side3=math.sqrt((z[4]-z[0])**2+(z[5]-z[1])**2)
 s=(side1+side2+side3)/2
 area=math.sqrt(s*(s-side1)*(s-side2)*(s-side3))
 print(area)
+print(15)
 side=int(input("Enter side length here"))
 are1=(3*(math.sqrt(3))*side*side)/2
 print(are1)
+print(16)
 v=int(input("Enter the starting velocity"))
 v1=int(input("Enter the end velocity"))
 t=int(input("Enter the amount of time it took"))
 a=(v1-v)/t
+print(a)
+print(17)
 p=int(input("Enter your weight in pounds:"))
 h=int(input("Enter your height in inches:"))
 Bmi=(p*705)/(h*h)
 print(Bmi)
+print(18)
 currenttime=time.time()
 totalseconds=int(currenttime)
 currentsecond=totalseconds%60
@@ -113,16 +120,21 @@ currenthour=totalhours%24
 l=int(input("Enter number hours offset the time is"))
 currenthour=currenthour+l
 print("The current time is",currenthour,":",currentminute,":",currentsecond)
+print(19)
 investmentamount=int(input("Enter a investment amount here:"))
 interestrate=int(input("enter the annual interest rate here:"))
 years1=int(input("enter the number of years here:"))
 value=investmentamount*(1+interestrate)**years1
+print(value)
+print(20)
 balance=int(input("enter a value here:"))
 intrestrate=int(input("enter a value here:"))
 inter=balance*(intrestrate/1200)
+print(21)
 savings=int(input("enter a value here:"))
 accountbalance=savings*(1+0.00417)
 print("After six months you have",accountbalance,"In your account")
+print(22)
 years2=int(input("Enter the number of years:"))
 births=31536000//7
 deaths=31536000//13
