@@ -10,6 +10,9 @@ print(sampleArr)
 print("the shape of this array is : ", sampleArr.shape)
 print("the size of this array is : ", sampleArr.size)
 '''
-
+#PANDAS CODE
+'''
 coronaReader = pd.read_csv('coronaData.csv')
 print(coronaReader)
+'''
+#SCIPY CODE
