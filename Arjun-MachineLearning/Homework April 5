@@ -1,0 +1,27 @@
+Install Anaconda
+
+2. Load ipython notebook
+
+3. Create sample notebook
+
+4. Register with kaggle
+
+5. Download same dataset as anish downloaded
+
+6. load the basketball dataset as Energy dataset demo and do .head and .info 
+
+7. Identify columns u think we need 
+
+8. Understand the column abbreviations
+
+9. Learn Matrix math
+
+Matrix multiplication/addition
+
+matrix/vector/scalar
+
+10. Create github and move ur code every week - create a folder with a week name
+
+2 examples of difference or a sample program (2 line) between
+
+Numpy. Scipy, pandas
