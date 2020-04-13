@@ -1,6 +1,7 @@
 import pandas as pd 
 import numpy as np 
 import scipy as sp 
+from scipy import special
 
 #NUMPY CODE
 '''
@@ -16,3 +17,5 @@ coronaReader = pd.read_csv('coronaData.csv')
 print(coronaReader)
 '''
 #SCIPY CODE
+exponent = special.exp10(3)
+print(exponent)
